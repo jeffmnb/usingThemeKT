@@ -62,7 +62,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun applySavedTheme() {
-        val savedThemeMode = sharedPreferences.getInt("them_mode", AppCompatDelegate.MODE_NIGHT_NO)
+        val savedThemeMode = sharedPreferences.getInt("theme_mode", AppCompatDelegate.MODE_NIGHT_NO)
         applyTheme(savedThemeMode)
     }
 }
